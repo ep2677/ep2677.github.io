@@ -1,0 +1,93 @@
+/*var macarena = {"color:#212121;"};*/
+/* colourlovers palette is called dusty days - figure out how to set variables*/
+a {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #212121;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+header p{
+  font-family: 'Acme', sans-serif;
+  font-size: 2.5em;
+  margin: 0 0 0 10px;
+  color: #94cea0;
+}
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+main {
+  width: 50%;
+}
+#moi {
+  
+}
+/*aside*/
+aside { 
+width: 50%;
+font-family: 'Acme', sans-serif;
+}
+aside p:first-child {
+  font-size: 2em;
+  text-align: center;
+  color: #528881;
+}
+#twitterImg {
+  width: 64px;
+}
+#facebookImg {
+  width: 64px;
+}
+#emailImg {
+  width: 64px;
+}
+.socialMedia img{
+  padding-left: 12px;
+}
+/*work*/
+
+.title p{
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  bottom: 220px;
+  visibility: hidden;
+  transition: all 2s;
+  z-index: 1;
+
+}
+.work {
+  width: 25%;
+}
+.workImage {
+  transition: opacity 2s;
+  z-index: 0;
+}
+
+.workImage:hover {
+  opacity: 0.5;
+}
+.workImage:hover ~.title p{
+  visibility: visible;
+
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+  main, aside {
+    width: 100%;
+  }
+}
