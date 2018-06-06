@@ -200,6 +200,7 @@ footer {
     width: 100%;
     flex-direction: column;
     border-bottom: 10px  inset #343434;
+    position: relative;
   }
   .mainRight{
     flex-direction: column;
@@ -208,8 +209,6 @@ footer {
   }
   #moi3 {
     width:45%;
-    position: relative;
-    top: 26px;
   }
   #socialMediaIcons {
     flex-direction: column;
