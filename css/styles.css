@@ -160,7 +160,7 @@ main {
   margin-left: 3px;
 }
 footer {
-  width: 100%;
+  
   background-color: rgb(34, 34, 34);
   color: white;
   font-family: 'Hammersmith One', sans-serif;
@@ -178,12 +178,16 @@ footer {
 }
 .socialMediaImg {
   width: 50px;
+  padding: 2px;
 }
 
 @media only screen and (max-width: 750px) {
   .topMain {
     width: 100%;
     height: 100%;
+  }
+  .topMain p {
+    padding: 10px;
   }
  
   header p {
