@@ -185,7 +185,12 @@ footer h4 {
         0%{left:70%}
         100%{left: 100%}
     }
-    
+    header li {
+    font-size: 16px;
+    position: relative;
+    top: 36px;
+    margin-left: 17px;
+    }
 }
 
 
