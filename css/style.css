@@ -189,7 +189,13 @@ footer h4 {
     font-size: 16px;
     position: relative;
     top: 36px;
-    margin-left: 17px;
+    margin-left: 10px;
+    }
+    .card {
+        margin: 10px auto;
+    }
+    footer h4 {
+        padding-top: 50px;
     }
 }
 
